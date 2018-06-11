@@ -1,0 +1,343 @@
+/* ------------------------------ GENERAL -------------------------------- */
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.headings {
+    margin-top: 50px;
+    padding: 0;
+    text-align: center;
+    font-size: 50px;
+    color: #FFCC00;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#parentdiv {
+    height: 4200px;
+    width: 1901px;
+}
+
+.wastedivs {
+    position: absolute;
+    border: 3px double #FFCC00;
+    z-index: 20;
+    height: 4400px;
+    border-top: none;
+    border-bottom: none;
+}
+
+#wastediv1 {
+    margin-left: 70px;
+}
+
+#wastediv2 {
+    margin-left: 1830px;
+}
+
+/* ------------------------------ HEADER --------------------------------- */
+
+#headerdiv {
+    position: absolute;
+    height: 900px;
+    width: 1901px;
+    background-image: url("constructionbackground.jpg");
+    background-size: cover;
+    background-position: 0 -200px;
+}
+
+#qualitytext {
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 300px;
+    color: #FFCC00;
+    padding: 0px;
+    letter-spacing: 8px;
+    font-size: 80px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#integritytext {
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 1098px;
+    color: #FFCC00;
+    padding: 0px;
+    letter-spacing: 8px;
+    font-size: 80px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#transparentlogo {
+    position: absolute;
+    margin-top: 141px;
+    margin-left: 463px;
+    height: 700px;
+    z-index: 10;
+}
+
+.secondarybuttons {
+    position: absolute;
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
+    margin-top: 770px;
+    color: #FFCC00;
+    border-top: 3px double #FFCC00;;
+    border-bottom: 3px double #FFCC00;;
+    border-left: none;
+    border-right: none;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 15
+}
+
+.secondarybuttons:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#servicesbutton {
+    margin-left: 720px;
+}
+
+#quotebutton {
+    margin-left: 1000px;
+}
+
+/* ------------------------------ MENU ----------------------------------- */
+
+#menudiv {
+    position: absolute;
+    margin-top: 371px;
+    margin-left: 350px;
+    height: 46px;
+    width: 1200px;
+    border-top: 3px double #FFCC00;
+    border-bottom: 3px double #FFCC00;
+}
+
+.menubuttons {
+    position: absolute;
+    font-size: 20px;
+    color: #FFCC00;
+    height: 35px;
+    width: 150px;
+    margin-top: 6px;
+    border-top: none;
+    border-bottom: none;
+    border-left: 3px double #FFCC00;
+    border-right: 3px double #FFCC00;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 15;
+}
+
+.menubuttons:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#aboutbutton {
+    margin-left: 80px;
+}
+
+#projectsbutton {
+    margin-left: 300px;
+}
+
+#gallerybutton {
+    margin-left: 750px;
+}
+
+#contactusbutton {
+    margin-left: 970px;
+}
+
+/* ------------------------------ ABOUT ---------------------------------- */
+
+#aboutdiv {
+    position: absolute;
+    margin-top: 800px;
+    height: 1260px;
+    width: 1901px;
+    z-index: 1;
+    background-image: url("storagefaded.jpg");
+    background-size: cover;
+    -webkit-clip-path: polygon(51% 8%, 100% 0, 100% 85%, 0 100%, 0 0);
+    clip-path: polygon(51% 8%, 100% 0, 100% 85%, 0 100%, 0 0);
+}
+
+#aboutheading {
+    margin-top: 130px;
+}
+
+#aboutusimage1 {
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 140px;
+    border: 3px double #FFCC00
+}
+
+#aboutusimage2 {
+    position: absolute;
+    height: 401px;
+    margin-top: 400px;
+    margin-left: 140px;
+    border: 3px double #FFCC00
+}
+
+.aboutuspars {
+    position: absolute;
+    margin-left: 900px;
+    font-size: 18px;
+    color: #FFCC00;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px double #FFCC00;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.3)
+}
+
+#aboutuspar1 {
+    width: 800px;
+    margin-top: 30px;
+}
+
+#aboutuspar2 {
+    width: 800px;
+    margin-top: 460px;
+}
+
+/* ------------------------------ PROJECTS ------------------------------ */
+
+#projectsdiv {
+    position: absolute;
+    background-color: black;
+    margin-top: 1840px;
+    height: 1100px;
+    width: 1901px;
+    -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 84%);
+    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 84%);
+}
+
+#projectheading {
+    margin-top: 200px;
+}
+
+.projectdivs {
+    position: absolute;
+    height: 500px;
+    width: 400px;
+    border: 3px double #FFCC00;
+}
+
+#projectdiv1 {
+    margin-left: 330px;
+    margin-top: -30px;
+}
+
+#projectdiv2 {
+    margin-left: 750px;
+    margin-top: 90px;
+}
+
+#projectdiv3 {
+    margin-left: 1170px;
+    margin-top: -30px;
+}
+
+.projectimages {
+    margin-top: 50px;
+    width: 400px;
+}
+
+.projectimagepars {
+    color: #FFCC00;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* ------------------------------ GALLERY ------------------------------- */
+
+#gallerydiv {
+    position: absolute;
+    background-color: gray;
+    margin-top: 2700px;
+    height: 1100px;
+    width: 1901px;
+    -webkit-clip-path: polygon(0 0, 100% 22%, 100% 80%, 0% 100%);
+    clip-path: polygon(0 0, 100% 22%, 100% 80%, 0% 100%);
+    z-index: 1;
+}
+
+#galleryheading {
+    margin-top: 180px;
+}
+
+#galleryparentdiv {
+    position: relative;
+    float: left;
+    margin-left: 250px;
+    height: 580px;
+    width: 1400px;
+    border: 3px double #FFCC00;
+}
+
+.galdivs {
+    float: left;
+    height: 288px;
+    width: 464px;
+}
+
+.galimages {
+    height: 288px;
+    width: 464px;
+}
+
+/* ------------------------------ CONTACT ------------------------------- */
+
+#contactdiv {
+    position: absolute;
+    margin-top: 3500px;
+    height: 900px;
+    width: 1901px;
+    background-color: black;
+    overflow: hidden;
+}
+
+#contactheading {
+    margin-top: 300px;
+}
+
+#mapsimage {
+    position: absolute;
+    height: 655px;
+    margin-top: -180px;
+    margin-left: 1180px;
+    border: 3px double #FFCC00;
+}
+
+.contactdetailheadings {
+    color: #FFCC00;
+    font-size: 25px;
+    letter-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 35px;
+    margin-left: 400px;
+}
+
+.contactdetailpars {
+    color: #FFCC00;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 35px;
+    margin-left: 450px;
+}
+
+/* ---------------------------------------------------------------------- */
